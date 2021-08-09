@@ -4,13 +4,13 @@
   "description": "NearForm - Sharing Components",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ramirezfmau/sharedpackages.git"
+    "url": "git+https://github.com/ramirezfmau/sharedpackagesss.git"
   },
   "author": "NearForm",
   "bugs": {
-    "url": "https://github.com/ramirezfmau/sharedpackages/issues"
+    "url": "https://github.com/ramirezfmau/sharedpackagesss/issues"
   },
-  "homepage": "https://github.com/ramirezfmau/sharedpackages#readme",
+  "homepage": "https://github.com/ramirezfmau/sharedpackagesss#readme",
   "scripts": {
     "start": "NODE_ENV=development start-storybook -p 9001 -c .storybook",
     "test": "jest --coverage --verbose",
