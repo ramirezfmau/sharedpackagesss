@@ -1,7 +1,19 @@
 {
-  "lerna": "2.0.0-rc.5",
   "packages": [
     "packages/*"
   ],
-  "version": "independent"
+  "version": "independent",
+  "command": {
+    "publish": {
+      "registry": "https://github.com/ramirezfmau/sharedpackages/",
+      "ignoreChanges": [
+        ".babelrc",
+        ".eslintrc.js",
+        "babel.config.js",
+        "*.stories.js",
+        "*.test.js",
+        "README.md"
+      ]
+    }
+  }
 }
