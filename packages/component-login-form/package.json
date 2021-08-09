@@ -10,5 +10,6 @@
     "component-input": "^0.0.2",
     "helper-nearformTheme": "^0.0.2",
     "react": "^15.6.1"
-  }
+  },
+  "gitHead": "dfe5d0c7ecd2f178ef20a2211eb262d57aaf86f1"
 }
