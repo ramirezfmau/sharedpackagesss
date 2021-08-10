@@ -1,8 +1,7 @@
-import React from 'react'
-import { configure } from '@storybook/react'
-
-function loadStories () {
-  require('glob-loader!./stories.pattern')
+module.exports = {
+  "stories": ["../packages/**/*.story.js"],
+  "addons": [
+    "@storybook/addon-links",
+    "@storybook/addon-essentials"
+  ]
 }
-
-configure(loadStories, module)
